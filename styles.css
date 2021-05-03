@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-horizontal-end {
+    justify-content: flex-end;
+}
+
+.hour {
+    min-width: 50px;
+    height: 50px;
+    padding-right: 5px;
+}
+
+.calendar-item {
+    margin-bottom: 5px;
+}
+
+textarea {
+    margin-right: 5px;
+}
+
+#calendar-container {
+    padding: 20px;
+}
